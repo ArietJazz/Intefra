@@ -1,5 +1,7 @@
 import React from 'react';
-import jacket from '../../assets/image/collection.png'
+import clothing1 from '../../assets/image/collection.png'
+import clothing2 from '../../assets/image/collection__two.png'
+import clothing3 from '../../assets/image/collection__three.png'
 
 const CollectionSection = () => {
     return (
@@ -9,15 +11,15 @@ const CollectionSection = () => {
                     <h2 className="collection__title text-3xl font-semibold text-center">КОЛЛЕКЦИЯ</h2>
                     <div className="collection__blocks grid grid-cols-3 mt-8 gap-8">
                         <div className="collection__block-one text-center">
-                            <img src={jacket} alt="" className="w-full" />
+                            <img src={clothing1} alt="" className="w-full" />
                             <p className="collection__desc mt-3">Спортивный костюм Artigiani, футболка Artigiani, кеды Santoni</p>
                         </div>
                         <div className="collection__block-two text-center">
-                            <img src={jacket} alt="" className="w-full" />
+                            <img src={clothing2} alt="" className="w-full" />
                             <p className="collection__desc mt-3">Пуховый жилет Kiton, джинсы Jacob Cohen, футболка Fedeli, кроссовки Valentino, бейсболка Kiton</p>
                         </div>
                         <div className="collection__block-three text-center">
-                            <img src={jacket} alt="" className="w-full" />
+                            <img src={clothing3} alt="" className="w-full" />
                             <p className="collection__desc mt-3">Парка Artigiani, джемпер Artigiani,джинсы Jacob Cohen, челси Santoni</p>
                         </div>
                     </div>
